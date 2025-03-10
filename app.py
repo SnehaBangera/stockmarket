@@ -8,6 +8,14 @@ from src.recommendation import get_recommendation
 import matplotlib.pyplot as plt
 import pandas as pd
 
+st.markdown("""
+    <style>
+        header {visibility: hidden;}
+    </style>
+    """, unsafe_allow_html=True)
+
+st.set_page_config(initial_sidebar_state="collapsed")
+
 st.title("📈 Stock Market Prediction")
 
 # Stock Market Prediction Page
