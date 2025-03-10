@@ -14,7 +14,6 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.set_page_config(initial_sidebar_state="collapsed")
 
 st.title("📈 Stock Market Prediction")
 
